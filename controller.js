@@ -75,9 +75,9 @@ export const renderBoard = function (game) {
     let gridHTML = "";
     for (let i = start; i < end; i++) {
     let textColor = (game.gameState.board[i] > 0) ? "has-text-warning-light" : "has-text-dark";
-    gridHTML += `<div class="column is-narrow">
+    gridHTML += `<div class="column is-narrow has-text-centered">
         <div class="box has-background-primary" style="width: 100px; height: 100px;">
-            <p class="title is-5 ${textColor}">${game.gameState.board[i]}</p>
+            <p class="title is-2 ${textColor}">${game.gameState.board[i]}</p>
         </div>
         </div>`;
     }
