@@ -2,7 +2,7 @@
 This repository consists of an implementation of 2048 in JavaScript to gain practice with interactive webpages using jQuery and event handlers.
 
 *Here's a screenshot:*
-![2048 Screenshot](/2048.jpg?raw=true "2048")
+![2048 Screenshot](/2048.JPG?raw=true "2048")
 
 # Setup Instructions
 - Install dependencies: 'npm install bulma jquery keypress browser-sync'
