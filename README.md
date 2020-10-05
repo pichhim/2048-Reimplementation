@@ -5,7 +5,7 @@ This repository consists of an implementation of 2048 in JavaScript to gain prac
 - Install dependencies: 'npm install bulma jquery keypress browser-sync'
 
 # Two Ways To Play:
-1) Run the "console" script in package.json
-2) Run 'browser-sync -sw' to locally launch the application on your localhost (*recommended*)
+1) Run the "console" script in package.json to run the application in a text-based form in the terminal
+2) Run 'browser-sync -sw' to locally launch the webpage on your localhost (*recommended*)
 
 Have fun!
